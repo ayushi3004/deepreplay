@@ -3,13 +3,13 @@ import numpy as np
 import h5py
 import keras.backend as K
 from keras.models import load_model
-from .plot import (
+from plot import (
     build_2d_grid, FeatureSpace, ProbabilityHistogram, LossHistogram, LossAndMetric, LayerViolins
 )
-from .plot import (
+from plot import (
     FeatureSpaceData, FeatureSpaceLines, ProbHistogramData, LossHistogramData, LossAndMetricData, LayerViolinsData
 )
-from .utils import make_batches, slice_arrays
+from utils import make_batches, slice_arrays
 from itertools import groupby
 from operator import itemgetter
 
